@@ -14,7 +14,7 @@ for i in range(attempts):
                     break
             else:
                 print(num)
-        break  # stop the loop after successful login
+        break  
 
     else:
         remaining = attempts - (i + 1)
