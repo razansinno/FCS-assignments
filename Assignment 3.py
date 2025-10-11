@@ -18,9 +18,12 @@ for name, grade in students:
    print(f"Failed Students: {name}")
 
 for name, grade in students:
-   max_grade = max([g for _, g in students])
+   max_grade = max([g for _, g in students]) #I used AI [g for _, g in students] because it was giving error without it & didn't know why
    if grade == max_grade:
       print(f"Max Grade student is: {name},{grade}")
+
+      #I didn't know how to make the programe calculate the users average grades
+      
 
 
 
